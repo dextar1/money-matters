@@ -9,7 +9,7 @@
         if(!('serviceWorker' in navigator)) {
             console.log("Sorry not supported");
         }
-        navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+        navigator.serviceWorker.register('/money-matters/service-worker.js').then(function(registration) {
             console.log('registered');
         });
     </script>
